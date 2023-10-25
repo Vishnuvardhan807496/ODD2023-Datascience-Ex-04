@@ -1,3 +1,4 @@
+# Ex04: Multivariate AnalysisAssignment
 # AIM
 To perform Multivariate EDA on the given data set.
 # EXPLANATION
@@ -24,9 +25,6 @@ Save the final data set into the file
 
 # CODE
 - <B>Diabetes.csv</B>
-----------------------------
-**name:L. vishnu vardhan
-   reg no:212220040077**
 ```python
 import pandas as pd
 import numpy as np
@@ -90,25 +88,25 @@ sb.heatmap(df.corr(),annot = True)
 ```
 # OUTPUT
 - <B>Diabetes.csv</B>
-<p>Before Data Cleaning</p>
+
 <br><img src="https://github.com/Janarthanan2/ODD2023-DataScience-Ex-03/assets/119393515/91f8d1c2-9cea-4360-9647-b4a200b5eafe" width="250" height="250">
-<br><p>After Data Cleaning</p>
+
 <br><img src="https://github.com/Janarthanan2/ODD2023-DataScience-Ex-03/assets/119393515/77a451e8-4b53-410a-a88d-9b3ec16779e8" width="250" height="250">
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/b55fb781-1b97-42e6-a22e-2258f2e40430" width="350" height="250">
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/f054c181-deee-4f3f-a9da-c0a20947ba2d" width="250" height="250">
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/6203d6c5-b03a-4f97-a35d-3cc87acbbe32" width="250" height="250">
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/66991054-33ae-4eae-b03c-bdfcf0f7033e" width="250" height="250"><br>
-<p>Heat Map</p>
+
 <br><img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/8b329a1d-fce5-463f-8b26-a24725c8ea84" width="350" height="350">
 
 - <B>SuperStore.csv</B>
-<p>Before Data Cleaning</p>
+
 <br><img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/0f1b50e5-aec8-4350-8636-b4b0b7197a30" width="250" height="250">
-<br><p>After Data Cleaning</p>
+
 <br><img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/c257b8c8-a8f7-4aa1-9080-d67f702fb20d" width="250" height="250">
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/270781dd-41f1-4d07-ba56-b5fd4da20970" width="250" height="250">
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/b12eb5aa-27e1-4076-991f-f89cc23ea7fc" width="250" height="250"><br>
-<p>Heat Map</p>
+
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-04/assets/119393515/416c5763-61e1-4082-bcfa-bb47d6e9ed18" width="250" height="250">
 
 # RESULT
